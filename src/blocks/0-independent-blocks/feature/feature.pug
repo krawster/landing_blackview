@@ -1,0 +1,9 @@
+mixin feature(title, desc)
+	div.feature
+		div.icon-container
+			div.icon
+				i(class!=attributes.class)
+
+		div.feature__desc
+			h4 #{title}
+			p #{desc}

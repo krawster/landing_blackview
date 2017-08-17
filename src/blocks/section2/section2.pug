@@ -1,0 +1,20 @@
+section#s2.big-section
+	div.container
+		include ../0-independent-blocks/section-header/section-header.pug				
+		+section-header('Топовые характеристики', 'Камера - 8Мп / 5Мп | Android 6.0 | 2 SIM | 4G	LTE | 3000мАч')
+
+		div.row.top-feature
+			include ../0-independent-blocks/feature/feature.pug
+
+			div.col-sm-4.top-feature__left.wow.fadeInLeft.animated(data-wow-offset="220", data-wow-duration="2s")
+				+feature('Responsive Design', 'Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.')(class="icon_map_alt")
+				+feature('Responsive Design', ' Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.')(class="icon_gift_alt")
+				+feature('Responsive Design', ' Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.')(class="icon_tablet")
+				
+			div.col-sm-4.top-feature__center.wow.bounceIn.animated(data-wow-offset="220", data-wow-duration="2s")
+				img(src="/images/section2/section2.jpg", alt="")
+
+			div.col-sm-4.top-feature__right.wow.fadeInRight.animated(data-wow-offset="220", data-wow-duration="2s")
+				+feature('Responsive Design', ' Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.')(class="icon_genius")
+				+feature('Responsive Design', ' Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.')(class="icon_lightbulb_alt")
+				+feature('Responsive Design', ' Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.')(class="icon_ribbon_alt")

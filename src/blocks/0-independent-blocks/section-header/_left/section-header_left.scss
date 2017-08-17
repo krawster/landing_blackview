@@ -1,0 +1,13 @@
+.section-header_left{
+	text-align: center;
+	padding-bottom: 80px
+}
+@media (min-width: 992px) {
+	.section-header_left{
+		text-align: left;
+		padding-bottom: 40px
+	}
+	.section-header_left .section-header__desc-line{
+		margin: 0;
+	}
+}

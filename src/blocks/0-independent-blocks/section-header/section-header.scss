@@ -1,0 +1,26 @@
+.section-header{
+	text-align: center;
+	padding-bottom: 80px;
+}
+.section-header__title{
+	font-size: 36px;
+	font-weight: 300;
+	padding: 0 0 20px 0;
+	margin: 0;
+}
+.section-header__desc-line{
+	margin: auto;
+    z-index: 1;
+    width: 170px;
+    height: 1px;
+    background-color: $base-color_blue;
+}
+.section-header__desc{
+	padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+	.section-header__title{
+		font-size: 50px;
+	}
+}

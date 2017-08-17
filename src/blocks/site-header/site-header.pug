@@ -1,0 +1,16 @@
+header.site-header
+	include main-menu/main-menu.pug
+
+	div.container
+		div.row
+			div.col-md-12
+				include logo/logo.pug
+
+		div.row
+			div.col-md-6.col-sm-6
+				div.site-header__main-text
+					include __main-text/site-header__main-text.pug
+
+			div.col-md-6.col-sm-6.hidden-xs 
+				div.site-header__big-img
+					img(src="/images/site-header/__big-img/site-header__big-img.png")

@@ -1,0 +1,12 @@
+.section4-img{
+	display: block;
+	margin: 80px auto 80px auto;
+	width: 100%;
+	max-width: 420px;
+}
+
+@media (min-width: 992px) {
+	.section4-img{
+		margin: 0 auto 80px auto;
+	}
+}

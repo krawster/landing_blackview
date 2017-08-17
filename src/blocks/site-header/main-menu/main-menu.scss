@@ -1,0 +1,17 @@
+.navbar-default{
+	min-height: 59px;
+}
+.navbar-brand img{
+	display: block;
+	height: 35px;
+}
+.navbar-header{
+	min-height: 59px;
+}
+
+@media (min-width: 992px) {
+	.navbar-nav{
+		float: right;
+		padding-top: 5px;
+	}
+}

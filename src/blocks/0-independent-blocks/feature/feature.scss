@@ -1,0 +1,51 @@
+.feature{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.icon-container{
+	float: none;
+    margin-left: inherit;
+    min-height: 70px;    
+}
+.icon{
+	border: 1px solid $base-color_blue;
+    color: $base-color_blue;
+	width: 55px;
+    height: 55px;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 55px;
+    font-size: 18px;
+    text-align: center;
+    -webkit-transition: all ease-in 0.25s;
+    transition: all ease-in 0.25s;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}	
+.feature:hover .icon-container .icon{
+    background: $base-color_blue;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 0px 2px $base-color_blue;
+    box-shadow: 0px 0px 0px 2px $base-color_blue;
+}
+.feature h4{
+	font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: $base-color_blue;
+}
+
+@media (min-width: 768px) {
+    .feature{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .icon-container{
+        display: none;
+    }
+}

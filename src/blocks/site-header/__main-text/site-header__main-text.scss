@@ -1,0 +1,65 @@
+.site-header__main-text{
+	color: #fff;	
+}
+.site-header__main-text h1{
+	font-size: 34px;
+    font-weight: 300;
+    text-align: center;
+}
+.site-header__main-text h1 span{
+	display: block;
+	font-size: 26px;
+}
+.site-header__main-text ul{
+	list-style: none;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding: 0;
+}
+.site-header__main-text ul li{
+	padding-bottom: 7px;
+}
+.site-header__main-text ul li span{
+	font-size: 16px;
+}
+.site-header__price{
+	color: #e63e3a;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.site-header__main-text h1 {
+		text-align: left;
+		font-size: 40px;
+    	line-height: 50px;
+	}
+	.site-header__main-text h1 span{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.site-header__main-text ul{
+	    font-size: 18px;
+	    text-align: left;
+	}
+	.site-header__main-text ul li{
+		padding-bottom: 10px;
+	}
+	.site-header__price{
+		text-align: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.site-header__main-text h1 {
+		text-align: left;
+		font-size: 50px;
+    	line-height: 60px;
+	}
+	.site-header__main-text h1 span{
+		font-size: 40px;
+		line-height: 50px;
+	}
+}

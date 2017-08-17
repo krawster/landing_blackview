@@ -1,0 +1,35 @@
+.site-header{
+	width: 100%;
+	background: url('../images/site-header/site-header.jpg') no-repeat center top fixed;
+	background-size: cover;
+	overflow: hidden;
+	padding-bottom: 80px;
+}
+.header-price{
+	text-align: center;
+	padding: 50px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.site-header__bottom{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-stretch: ultra-expanded
+}
+.site-header__bottom a{
+	color: #fff;
+	margin: 0;
+}
+.site-header__bottom a:hover, .site-header__bottom a:active, .site-header__bottom a:visited, .site-header__bottom a:focus{
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.site-header{
+		padding-bottom: 120px;
+	}
+	.site-header__bottom{
+		font-size: 80px;
+	}
+}

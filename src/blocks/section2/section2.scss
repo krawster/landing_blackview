@@ -1,0 +1,33 @@
+.top-feature__center img{
+	display: block;
+	margin: 0 auto 80px auto;
+	width: 100%;
+	max-width: 278px;
+}
+
+@media (min-width: 768px) {	
+    .top-feature__left .feature{
+		text-align: right;		
+	}
+	.top-feature__left .icon-container{
+		float: right;
+		min-height: 120px;
+		margin-left: 20px;
+		margin-top: 5px;		
+	}
+
+	.top-feature__right .feature{
+		text-align: left;		
+	}
+	.top-feature__right .icon-container{
+		float: left;
+		min-height: 120px;
+		margin-right: 20px;
+		margin-top: 5px;		
+	}
+}
+@media (min-width: 992px) {
+	.top-feature__left, .top-feature__right{
+		padding-top: 40px;
+	}
+}

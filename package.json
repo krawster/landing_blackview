@@ -1,0 +1,25 @@
+{
+  "name": "landing_blackview",
+  "version": "0.0.1",
+  "description": "Landing page - Sale mobile phone Blackview (HTML/CSS) ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexen2/landing_blackview.git"
+  },
+  "author": "alexen2",
+  "bugs": {
+    "url": "https://github.com/alexen2/landing_blackview/issues"
+  },
+  "homepage": "https://github.com/alexen2/landing_blackview#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.1.0"
+  }
+}
