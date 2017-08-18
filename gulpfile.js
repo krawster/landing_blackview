@@ -5,6 +5,7 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	imagemin = require('gulp-imagemin'),
 	del = require('del'),
+	flatten = require('gulp-flatten'),
 	runSequence = require('run-sequence'),
 	browserSync = require('browser-sync').create(),
 	reload = browserSync.reload;
@@ -55,6 +56,7 @@ gulp.task('libraries-fonts', function(){
 
 gulp.task('images', function(){
 	return gulp.src('src/blocks/**/*.{png,jpg,jpeg,svg,gif}')
+		.pipe(flatten())
 		.pipe(imagemin())
 		.pipe(gulp.dest(params.images))
 });
